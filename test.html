@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+	<title>Test Vertical Scroll</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/naveffect.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/timeline.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+</head>
+<body>
+
+	<div id='icons'>
+  <a href="#" class="icon-button twitter"><i class="fa fa-twitter"></i><span></span></a>
+<a href="#" class="icon-button facebook"><i class="fa fa-facebook"></i><span></span></a>
+<a href="#" class="icon-button instagram"><i class="fa fa-instagram"></i><span></span></a>
+<a href="#" class="icon-button youtube"><i class="fa fa-youtube"></i><span></span></a>
+<!-- <a href="#"	 class="icon-button pinterest"><i class="fa fa-pinterest"></i><span></span></a> -->
+</div>
+  <div class="container">
+    <!-- This checkbox will give us the toggle behavior, it will be hidden, but functional -->
+    <input id="toggle" type="checkbox">
+
+    <!-- IMPORTANT: Any element that we want to modify when the checkbox state changes go here, being "sibling" of the checkbox element -->
+
+    <!-- This label is tied to the checkbox, and it will contain the toggle "buttons" -->
+    <label class="toggle-container" for="toggle">
+        <!-- If menu is open, it will be the "X" icon, otherwise just a clickable area behind the hamburger menu icon -->
+        <span class="button button-toggle"></span>
+    </label>
+
+    <!-- The nav menu -->
+    <nav class="nav">
+      <a class="nav-item" href="index.html">Home</a>
+      <a class="nav-item" href="aboutus.html">About Us</a>
+      <a class="nav-item" href="events.html">Events</a>
+      <a class="nav-item" href="shield.html">KJSCE Shield</a>
+      <a class="nav-item" href="test.html">Shield ScoreCard</a>
+      <a class="nav-item" href="generalrules.html">General Rules</a>
+      <a class="nav-item" href="parvaah.html">Parvaah</a>
+      <a class="nav-item" href="sponsors.html">Sponsors</a>
+      <a class="nav-item" href="contactus.html">Contact Us</a>
+        <!-- <a id="navlogo" class="nav-item" href=""><img src="logo.png" style="height: 70px; width: auto;"></a> -->
+    </nav>
+
+    <!-- Just dummy content like in the animated gif -->
+<div id="navlogo"><img src="dummy.png"></div>
+</div>
+<div class="content">
+<section id=timeline>
+  <h1>A Flexbox Timeline</h1>
+  <p class="leader">All cards must be the same height and width for space calculations on large screens.</p>
+  <div class="demo-card-wrapper">
+    <div class="demo-card demo-card--step1">
+      <div class="head">
+        <div class="number-box">
+          <span>01</span>
+        </div>
+        <h2><span class="small">Subtitle</span> Technology</h2>
+      </div>
+      <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="http://placehold.it/1000x500" alt="Graphic">
+      </div>
+    </div>
+
+    <div class="demo-card demo-card--step2">
+      <div class="head">
+        <div class="number-box">
+          <span>02</span>
+        </div>
+        <h2><span class="small">Subtitle</span> Confidence</h2>
+      </div>
+      <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="http://placehold.it/1000x500" alt="Graphic">
+      </div>
+    </div>
+
+    <div class="demo-card demo-card--step3">
+      <div class="head">
+        <div class="number-box">
+          <span>03</span>
+        </div>
+        <h2><span class="small">Subtitle</span> Adaptation</h2>
+      </div>
+      <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="http://placehold.it/1000x500" alt="Graphic">
+      </div>
+    </div>
+
+    <div class="demo-card demo-card--step4">
+      <div class="head">
+        <div class="number-box">
+          <span>04</span>
+        </div>
+        <h2><span class="small">Subtitle</span> Consistency</h2>
+      </div>
+      <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="http://placehold.it/1000x500" alt="Graphic">
+      </div>
+    </div>
+
+    <div class="demo-card demo-card--step5">
+      <div class="head">
+        <div class="number-box">
+          <span>05</span>
+        </div>
+        <h2><span class="small">Subtitle</span> Conversion</h2>
+      </div>
+      <div class="body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+        <img src="http://placehold.it/1000x500" alt="Graphic">
+      </div>
+    </div>
+    
+  </div>
+</section>
+</div>
+</body>
+</html>
