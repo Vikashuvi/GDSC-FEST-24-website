@@ -11,11 +11,11 @@ Enjoy responsibly!
 */
 
 $(document).ready(function() {
-  setTimeout(function(){
-    $('body').addClass('loaded');
-    $('h1').css('color','#222222');
-  }, 7000);
-  
+    setTimeout(function() {
+        $('body').addClass('loaded');
+        $('h1').css('color', '#222222');
+    }, 7000);
+
 });
 
 function nextMsg() {
@@ -29,13 +29,13 @@ function nextMsg() {
 };
 // list of messages to display
 var messages = [
-  "Assembling Bolt the Robot...",
-  "Prancing the plains for Bob the Caveman...",
-  "Excavating the earth for Cleopetra's tomb...",
-  "Testing Frank's Polyjuice potion...",
-  "Hover over characters for more magic...",
-  "Hover over characters for more magic...",
-  "Voila!",
+    "Assembling Bolt the Robot...",
+    "Prancing the plains for Bob the Caveman...",
+    "Excavating the earth for Cleopetra's tomb...",
+    "Testing Frank's Polyjuice potion...",
+    "Hover over characters for more magic...",
+    "Hover over characters for more magic...",
+    "Voila!",
 ].reverse();
 
 // initially hide the message
@@ -44,49 +44,47 @@ $('#message').hide();
 // start animation
 nextMsg();
 
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("#right").on('click', function(event) {
+$(document).ready(function() {
+    // Add smooth scrolling to all links
+    $("#down").on('click', function(event) {
 
-    $("#go_right").hide();
+        $("#go_down").hide();
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+            // Store hash
+            var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('#scrolling-wrapper').animate({
-        scrollLeft: $(hash).offset().left
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function() {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        } // End if
+    });
 });
 
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollLeft();
-    var docViewBottom = docViewTop + $(window).width();
-    docViewBottom-=100;
+function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+    docViewBottom -= 100;
     // offset of added
-    var elemTop = $(elem).offset().left;
-    var elemBottom = elemTop + $(elem).width();
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
     // console.log(docViewTop,docViewBottom,elemTop,elemBottom);
     return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom) && (elemBottom >= docViewBottom) && (elemTop >= docViewTop));
 }
 
-$('#scrolling-wrapper').scroll(function() {  
+$(window).scroll(function() {
     // alert("Working");  
-    if(isScrolledIntoView($('#card2')))
-    {
-        $("#go_right").hide();
-    }    
+    if (isScrolledIntoView($('#card2'))) {
+        $("#go_down").hide();
+    }
 });
