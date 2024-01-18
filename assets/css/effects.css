@@ -31,102 +31,6 @@ h6 {
     font-family: Portico;
 }
 
-#game_link {
-    width: auto;
-    background-color: #fff;
-    border-radius: 10px 0px 0px 10px;
-    position: fixed;
-    top: 80px;
-    right: -140px;
-    z-index: 100;
-    /*text-align: center;*/
-    transition: all 1s ease-in-out;
-}
-
-#game_link a {
-    color: #9a3767;
-    display: initial;
-}
-
-#game_link a:before {
-    font-family: 'FontAwesome';
-    content: '\f11b';
-    padding: 5px;
-}
-
-#game_link:hover {
-    transform: translateX(-140px);
-}
-
-#movie_link {
-    width: auto;
-    background-color: #fff;
-    border-radius: 10px 0px 0px 10px;
-    position: fixed;
-    bottom: 0px;
-    right: -260px;
-    z-index: 100;
-    /*text-align: center;*/
-    transition: all 1s ease-in-out;
-}
-
-#movie_link a {
-    color: #9a3767;
-    display: initial;
-}
-
-#movie_link a:before {
-    font-family: 'FontAwesome';
-    content: '\f03d';
-    padding: 5px;
-}
-
-#movie_link:hover {
-    transform: translateX(-260px);
-}
-
-#go_right {
-    position: absolute;
-    bottom: 50%;
-    right: 10px;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.0);
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-decoration: none;
-    -webkit-border-radius: 35px;
-    -moz-border-radius: 35px;
-    border-radius: 35px;
-    -webkit-transition: all 0.3s linear;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-    z-index: 101;
-}
-
-#go_right i {
-    text-shadow: 0 0 3px #000;
-    color: #fff;
-    margin: 0;
-    position: relative;
-    left: 16px;
-    top: 13px;
-    font-size: 2rem;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-i {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-
 
 /*a {
   font-family: "Roboto", sans-serif;
@@ -555,70 +459,13 @@ a {
         height: calc(100% - 30px);
         width: 85%;
     }
+
     .textcontent {
         font-size: 12px;
         width: 100%;
         height: 50%;
     }
-    #trigger1 {
-        left: 2vw;
-        width: 22vw;
-        height: 23vh;
-    }
-    #trigger2 {
-        left: 35vw;
-        width: 22vw;
-        height: 15vh;
-    }
-    #trigger3 {
-        height: 20vh;
-        right: 24vw;
-    }
-    #trigger4 {
-        height: 20vh;
-    }
-    #trigger5 {
-        height: 18vh;
-    }
-    #trigger6 {
-        height: 20vh;
-    }
-    #trigger7 {
-        height: 19vh;
-    }
-    #textcard2 {
-        width: 70vw;
-        top: 15vh;
-        left: 2vw;
-    }
-    #textcard3 {
-        left: 20vw;
-        width: 70vw;
-        top: 15vh;
-    }
-    #textcard4 {
-        right: 3vw;
-        width: 70vw;
-        top: 15vh;
-    }
-    #textcard5 {
-        width: 70vw;
-        top: 15vh;
-    }
-    #textcard6 {
-        width: 70vw;
-        top: 15vh;
-    }
-    #textcard7 {
-        width: 70vw;
-        top: 15vh;
-        left: 5vw;
-    }
-    #textcard8 {
-        width: 70vw;
-        top: 15vh;
-        left: 15vw;
-    }
+    
 }
 
 #loader-wrapper {
@@ -672,9 +519,9 @@ a {
 .sp-loadbar {
     width: 50vw;
     height: 18px;
-    border: 1px #9A3767 solid;
+    border: 1px #ffffff solid;
     border-radius: 4px;
-    background: linear-gradient(-60deg, transparent 0%, transparent 50%, #7B295C 50%, #7B295C 75%, transparent 75%, transparent);
+    background: linear-gradient(-60deg, transparent 0%, transparent 50%, #4285f4 50%, #4285f4 75%, transparent 75%, transparent);
     background-size: 20px 30px;
     background-position: 0px 0px;
     -webkit-animation: spLoadBar 0.8s infinite linear;
@@ -904,13 +751,8 @@ a {
     /*background: -webkit-linear-gradient(left, #9A3767 , #7B295C);*/
     /*background: -o-linear-gradient(left, #9A3767 , #7B295C);*/
     /*background: linear-gradient(to right, #9A3767 , #7B295C);*/
-    background: #7B295C;
+    background: #ffffff;
     overflow: hidden;
-}
-
-.container {
-    /*-webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.23);*/
-    /*box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.23);*/
 }
 
 
@@ -923,12 +765,11 @@ a {
     /*to make margin disappear-*/
     font-size: 0px;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
     white-space: nowrap;
 }
 
 .card {
-    
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -936,6 +777,7 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+   
 }
 
 #card1 {
@@ -944,19 +786,19 @@ a {
 
 @media only screen and (max-width:1100px) {
     .card {
-        background-image: url("../images/bgs/tablet.png");
+        background-color: white;
     }
 }
 
 @media only screen and (max-width:500px) {
     .card {
-        background-image: url("../images/bgs/mobile.png");
+        background-color: white;
     }
 }
 
 ../images/bgs/mobile landscape*/ @media only screen and (min-device-width: 480px) and (max-device-width: 825px) and (orientation: landscape) {
     .card {
-        background-image: url("../images/bgs/desktop.png");
+        background-color: white;
     }
 }
 
@@ -990,22 +832,23 @@ a {
 
 @media screen and (max-aspect-ratio: 735/1000) {
     #card1 {
-        background-image: url("../images/bgs/mhome1.png") !important;
+        background-color: white;
+
     }
     #card2 {
-        background-image: url("../images/bgs/mhome2.png") !important;
+        background-color: white;
     }
     #card3 {
-        background-image: url("../images/bgs/mhome3.png") !important;
+        background-color: white;
     }
     #card4 {
-        background-image: url("../images/bgs/mhome4.png") !important;
+        background-color: white;
     }
 }
 
 @media screen and (max-aspect-ratio: 560/1000) {
     .card {
-        background-image: url("../images/bgs/mobile.png") !important;
+        background-color: white;
     }
 }
 
