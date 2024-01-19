@@ -102,7 +102,7 @@ body {
 
 body {
   font-family: Lato;
-  background-color: #7B295C;
+  background-color: #ffffff;
 }
 
 .eventcontainer {
@@ -117,8 +117,9 @@ body {
 }
 
 .eventsbg {
-  background-image: url("../images/bgs/others/events.png") ;
-  /*background-attachment: fixed;*/
+  background-color: #fff;
+  /*background-image: url("../images/bgs/others/events.png") ;
+  background-attachment: fixed;*/
   background-position: center ;
   background-repeat: no-repeat ;
   background-size: cover ;
@@ -128,7 +129,9 @@ body {
 {
   .eventsbg
   {
-    background-image: url("../images/bgs/others/mevents.png");
+    /*background-image: url("../images/bgs/others/mevents.png");*/
+  background-color: #fff;
+
   }
   
 }
