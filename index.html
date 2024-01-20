@@ -20,23 +20,7 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/core.js"></script> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script> -->
 
-    <style>
-
-    object {
-            max-width: 100%;
-            height: 100vh;
-            width: 100%;
-        }
-    
-    @media (max-width: 780px) {
-  
-    object {
-            height: 100vh;
-            width: 100%;
-        }
-    }
-       
-    </style>
+   
 
 </head>
 
@@ -130,10 +114,31 @@
 
 </main>
 
-<object data="events.html" type="text/html" width="100%" height="600"></object>
-<object data="generalrules.html" type="text/html" width="100%" height="600"></object>
-<object data="sponsors.html" type="text/html" width="100%" height="600"></object>
-<object data="aboutus.html" type="text/html" width="100%" height="600"></object>
+<style>
+
+    #obj {
+            max-width: 100%;
+            height: 100vh;
+            width: 100%;
+        }
+    
+    @media (max-width: 780px) {
+  
+    #obj {
+            height: 100vh;
+            width: 100%;
+        }
+    }
+       
+    </style>
+
+<object id="obj" data="events.html" type="text/html" width="100%" height="600"></object>
+<object id="obj" data="generalrules.html" type="text/html" width="100%" height="600"></object>
+<object id="obj" data="sponsors.html" type="text/html" width="100%" height="600"></object>
+
+<object id="obj2" data="aboutus.html" type="text/html" width="100%" height="600"></object>
+<object id="obj" data="contactus.html" type="text/html" width="100%" height="600"></object>
+
 
 
 </body>
