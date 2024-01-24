@@ -83,14 +83,14 @@ p {
 
 #main_bg
 {
-  
-  background-color: #ffffff;
-
+  background-image: url("../images/bgs/others/landscape.png") ;
+  background-position: center ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
 }
 
 mark
 {
-  background-color: #ffffff;
   color: #fff;
 }
 #timeline .demo-card .head p

@@ -117,9 +117,9 @@ body {
 }
 
 .eventsbg {
-  background-color: #fff;
-  /*background-image: url("../images/bgs/others/events.png") ;
-  background-attachment: fixed;*/
+  
+  background-image: url("../images/bgs/others/dfloih.png") ;
+  /*background-attachment: fixed;*/
   background-position: center ;
   background-repeat: no-repeat ;
   background-size: cover ;
