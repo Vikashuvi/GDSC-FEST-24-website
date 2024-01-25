@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5,h6
 {
   .content
   {
-    /*background-image: url("../images/bgs/others/maboutus.png");*/
+    background-image: url("../images/bgs/others/bgcanva850x1000.png");
     background-color: #fff;
   }
 }
@@ -83,7 +83,7 @@ p {
 
 #main_bg
 {
-  background-image: url("../images/bgs/others/landscape.png") ;
+  background: transparent;
   background-position: center ;
   background-repeat: no-repeat ;
   background-size: cover ;
@@ -176,7 +176,7 @@ mark
 /* Fonts */
 body {
   font-family: Roboto;
-  background-image: url("../images/bgs/others/maboutus.png");
+  background-image: url("../images/bgs/others/bgcanva850x1000.png");
   background-repeat: no-repeat;
   background-color: #ffffff;
   margin: 0;
@@ -206,6 +206,7 @@ body {
 #timeline .demo-card-wrapper {
   position: relative;
   margin: auto;
+  background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
 }
 @media (min-width: 1000px) {
   #timeline .demo-card-wrapper {

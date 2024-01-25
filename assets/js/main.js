@@ -54,11 +54,6 @@ $(document).ready(function() {
         return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom) && (elemBottom >= docViewBottom) && (elemTop >= docViewTop));
     }
 
-    $(window).scroll(function() {
-        if (isScrolledIntoView($('#card2'))) {
-            $("#go_down").hide();
-        }
-    });
 
     // Add vertical scrolling with mouse wheel
     $('html, body').on('wheel', function(e) {

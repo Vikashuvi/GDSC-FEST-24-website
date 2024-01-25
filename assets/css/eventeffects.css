@@ -102,7 +102,7 @@ body {
 
 body {
   font-family: Lato;
-  background-color: #ffffff;
+  background-image: url("../images/bgs/others/bgcanva960x600.png") ;
 }
 
 .eventcontainer {
@@ -118,7 +118,7 @@ body {
 
 .eventsbg {
   
-  background-image: url("../images/bgs/others/dfloih.png") ;
+  background: transparent;
   /*background-attachment: fixed;*/
   background-position: center ;
   background-repeat: no-repeat ;
