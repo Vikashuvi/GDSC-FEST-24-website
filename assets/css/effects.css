@@ -54,7 +54,7 @@ h6 {
 #game_link a:before
 {
 	font-family: 'FontAwesome';
-	content: '\f11b';
+	content: '\f145';
 	padding:5px;	
 }
 
@@ -136,7 +136,7 @@ a {
 
 .icon-button i {
     background: none;
-    color: white;
+    color: 0077b5;
     height: 2.6rem;
     left: 0;
     line-height: 2.6rem;
@@ -155,7 +155,7 @@ a {
 }
 
 .facebook span {
-    background-color: #3B5998;
+    background-color: #0077b5;
 }
 
 .google-plus span {
@@ -167,7 +167,7 @@ a {
 }
 
 .instagram span {
-    background-color: #517fa4;
+    background-color: #d62976 ;
 }
 
 .youtube span {
@@ -182,8 +182,8 @@ a {
     color: #4099ff;
 }
 
-.icon-button .fa-facebook {
-    color: #3B5998;
+.icon-button .fa-linkedin {
+    color: #0077b5;
 }
 
 .icon-button .fa-tumblr {
@@ -207,7 +207,7 @@ a {
 }
 
 .icon-button:hover .fa-twitter,
-.icon-button:hover .fa-facebook,
+.icon-button:hover .fa-linkedin,
 .icon-button:hover .fa-google-plus,
 .icon-button:hover .fa-tumblr,
 .icon-button:hover .fa-instagram,

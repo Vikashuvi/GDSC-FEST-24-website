@@ -193,7 +193,7 @@ body {
   /*background: linear-gradient(to bottom right, #fbd995, #fb736a);*/
   text-align: center;
   padding: 30px;
-  background: #9a3767;
+  background: #4285f4;
 }
 
 .back {
@@ -203,7 +203,7 @@ body {
   transform: rotateY(180deg);
   padding: 40px 15px;
   color: #fff;
-  background: #9a3767;
+  background: #8ab4f8;
 }
 
 .card:hover .front {
