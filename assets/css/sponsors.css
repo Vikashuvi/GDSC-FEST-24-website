@@ -56,7 +56,7 @@ h1,h2,h3,h4,h5,h6
 /*codepen tabs https://codepen.io/fusco/pen/Wvzjrm*/
 body
 {
-  background: #ffffff;
+  background-image: url(/bgcanva2100x1000.png);
 }
 .content
 {

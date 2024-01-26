@@ -6,6 +6,7 @@
 
 body {
   /*background: url("http://www.platehelp.nl/media/W1siZiIsIjIwMTUvMTAvMjcvMTBfNTZfMjBfNTU3X0lNR18xOTAxXzEuanBnIl1d/IMG_1901-1.jpg");*/
+  background-image: url(/bgcanva1920x1080.png);
   background-size: cover;
 }
 
@@ -150,7 +151,7 @@ body {
 }
 
 #container h1 {
-  color: #ECF6CE;
+  color: #080808;
   margin-top: 30px;
   margin-bottom: 20px;
 }

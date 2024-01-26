@@ -31,6 +31,37 @@ h6 {
     font-family: Portico;
 }
 
+#game_link
+{
+	width: auto;
+	background-color: #fffefe;
+	border-radius:10px 0px 0px 10px;
+	position: fixed;
+	top: 80px;
+	right: -155px;
+	z-index: 100;
+	/*text-align: center;*/
+	transition: all 1s ease-in-out;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+}
+
+#game_link a
+{
+	color: #ea3445;
+	display: initial;
+}
+
+#game_link a:before
+{
+	font-family: 'FontAwesome';
+	content: '\f11b';
+	padding:5px;	
+}
+
+#game_link:hover
+{
+	transform: translateX(-155px);
+}
 
 /*a {
   font-family: "Roboto", sans-serif;
@@ -228,13 +259,13 @@ a {
 
 #homepage_heading {
     content: "";
-    width: 80%;
-    height: calc(80% - 50px);
+    width: 100%;
+    height: calc(100% - 50px);
     position: absolute;
-    top: 35%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url("../images/homepage/fest\ logo\ png.png");
+    background-image: url("../images/homepage/newlogo.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -744,12 +775,7 @@ body {
     margin: 0;
 }
 
-body {
-    font-family: Lato;
-    background-color: #7b295c;
-    /*overflow-y: hidden;*/
-    /*jugaad to make scrollbar disappear*/
-}
+
 
 a {
     text-decoration: none;
@@ -790,12 +816,9 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-   
 }
 
-#card1 {
-    background: white;
-}
+ 
 
 @media only screen and (max-width:1100px) {
     .card {
@@ -1078,6 +1101,7 @@ custom scroll bars #scrolling-wrapper::-webkit-scrollbar-track {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+    z-index: 1000;
 }
 
 .nav-item {
@@ -1176,4 +1200,9 @@ custom scroll bars #scrolling-wrapper::-webkit-scrollbar-track {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+}
+
+body {
+    font-family: Lato;
+    background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
 }
