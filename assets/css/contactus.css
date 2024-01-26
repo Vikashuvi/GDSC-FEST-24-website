@@ -219,7 +219,7 @@ body {
 .front .contact {
   height: 120px;
   width: 120px;
-  border: 5px solid #B2DBBF;
+  border: 5px solid #ffffff;
   border-radius: 50%;
   display: inline-block;
   margin-bottom: 10px;
@@ -237,7 +237,7 @@ body {
 
 .front hr {
   border: none;
-  color: #B2DBBF;
+  color: #ffffff;
   border: 1px solid;
 }
 
@@ -252,5 +252,5 @@ body {
 
 .back .icon:hover {
   cursor: pointer;
-  color: #648767;
+  color: #000000;
 }
