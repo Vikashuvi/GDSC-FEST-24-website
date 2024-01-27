@@ -497,9 +497,12 @@ a {
 }
 
 @media screen and (max-aspect-ratio: 735/1000) {
+
+
     #homepage_heading {
         height: calc(100% - 30px);
         width: 85%;
+        margin-bottom: 20px;
     }
 
     .textcontent {
@@ -822,19 +825,22 @@ a {
 
 @media only screen and (max-width:1100px) {
     .card {
-        background-color: white;
+        background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
+
     }
 }
 
 @media only screen and (max-width:500px) {
     .card {
-        background-color: white;
+        background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
+
     }
 }
 
 ../images/bgs/mobile landscape*/ @media only screen and (min-device-width: 480px) and (max-device-width: 825px) and (orientation: landscape) {
     .card {
-        background-color: white;
+        background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
+
     }
 }
 
@@ -868,8 +874,7 @@ a {
 
 @media screen and (max-aspect-ratio: 735/1000) {
     #card1 {
-        background-color: white;
-
+        background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
     }
     #card2 {
         background-color: white;
@@ -884,7 +889,8 @@ a {
 
 @media screen and (max-aspect-ratio: 560/1000) {
     .card {
-        background-color: white;
+        background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
+
     }
 }
 

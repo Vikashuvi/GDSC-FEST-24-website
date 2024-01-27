@@ -130,7 +130,7 @@ body {
   .eventsbg
   {
     /*background-image: url("../images/bgs/others/mevents.png");*/
-  background-color: #fff;
+    background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
 
   }
   
