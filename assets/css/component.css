@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6
 
 .main::-webkit-scrollbar-thumb
 {
-  background-color: #FB9C70;
+  background-color: #f9ab00;
   border-radius: 5px;
   /*border: 2px solid #555555;*/
 }
@@ -447,7 +447,7 @@ ul li input[type=checkbox]:checked ~ i:after {
 
 .modal_content::-webkit-scrollbar-thumb
 {
-  background-color: #FB9C70;
+  background-color: #f9ab00;
   border-radius: 5px;
   /*border: 2px solid #555555;*/
 }
