@@ -1213,3 +1213,14 @@ body {
     background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
 }
 
+.foot {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    background-color: #FDE293;
+}
+
+.foot i {
+    color: #ea3445;
+}
