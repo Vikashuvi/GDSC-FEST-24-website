@@ -202,15 +202,15 @@ label:before {
 }
 
 label[for*='1']:before {
-  content: '\f5fc';
+  content: '\f005';
 }
 
 label[for*='2']:before {
-  content: '\f86d';
+  content: '\f5fc';
 }
 
 label[for*='3']:before {
-  content: '\f005';
+  content: '\f86d';
 }
 
 label[for*='4']:before {
