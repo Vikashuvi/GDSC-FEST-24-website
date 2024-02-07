@@ -1069,11 +1069,16 @@
             function navigateTo(url) {
               window.open(url, '_blank');
             }
+
+            function navigateToo(url) {
+              window.location.href = url;
+            }
+
           </script>
         
         </div>
 
-        <div class="card-container md-trigger md-setperspective" data-modal="modal-5">
+        <div class="card-container md-trigger md-setperspective" data-modal="modal-5" onclick="navigateToo('shield.html')">
           <img src="dummyevent.png">
           <h4 class="eventtitle">Paper presentation</h4>
           <div class="card">

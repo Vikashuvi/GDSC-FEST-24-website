@@ -45,7 +45,6 @@ h1,h2,h3,h4,h5,h6
 }
 
 .eventsbg {
-  background-image: url("../images/bgs/others/shield.png") ;
   /*background-attachment: fixed;*/
   background-position: center ;
   background-repeat: no-repeat ;
@@ -66,6 +65,7 @@ html,body
   width: 100vw;
   overflow-x: hidden;
   /*overflow-y: hidden;*/
+  
 }
 
 html, body {
@@ -82,7 +82,6 @@ body {
 
 body {
   font-family: Lato;
-  background-color: #7B295C;
 }
 
 .eventcontainer {
@@ -147,13 +146,14 @@ a {
   background: -webkit-linear-gradient(left, #9A3767 , #7B295C);
   background: -o-linear-gradient(left, #9A3767 , #7B295C);
   background: linear-gradient(to right, #9A3767 , #7B295C);*/
-  background: #7B295C;
+  
   overflow: hidden;
 }
 .container
 {
 /*    -webkit-box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.23);
             box-shadow: 0 10px 6px -6px rgba(0, 0, 0, 0.23);*/
+            
 }
 label:before {
   font-family: fontawesome;
@@ -839,4 +839,8 @@ label
 
 .branch {
   font-family: Lato;
+}
+
+.bgr {
+  background-image: url("../images/bgs/others/bgcanva850x1000.png") ;
 }
