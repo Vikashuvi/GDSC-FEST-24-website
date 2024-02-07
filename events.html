@@ -168,7 +168,12 @@
           </ul>
         </div>
       </div>
+      <div class="btns"> 
+      <a href="https://www.canva.com/" target="_blank">
+        <button>Register</button>
+      </a>
       <button class="md-close">Close</button>
+    </div>
     </div>
    </div>
 
@@ -384,7 +389,12 @@
           </ul>
         </div>
       </div>
-      <button class="md-close">Close</button>
+      <div class="btns"> 
+        <a href="https://www.canva.com/" target="_blank">
+          <button>Register</button>
+        </a>
+        <button class="md-close">Close</button>
+      </div>
     </div>
    </div>
 
@@ -864,13 +874,13 @@
 
       <!-- active tab on page load gets checked attribute -->
       <input type="radio" id="tab1" name="tabGroup1" class="tab" checked>
-      <label for="tab1">Flagship events</label>
+      <label for="tab1">Technical Events</label>
 
       <input type="radio" id="tab2" name="tabGroup1" class="tab">
-      <label for="tab2">Technical Events</label>
+      <label for="tab2">Non-Technical Events</label>
 
       <input type="radio" id="tab3" name="tabGroup1" class="tab">
-      <label for="tab3">Non-Technical Events</label>
+      <label for="tab3">Flagship events</label>
 
       <input type="radio" id="tab4" name="tabGroup1" class="tab">
       <label for="tab4">Registration & Payment</label>
@@ -887,44 +897,41 @@
         <!-- CARDS -->
         <div class="eventheading">Technical Events</div>
 
-        <div class="card-container md-trigger md-setperspective" data-modal="modal-2">
+        
+
+        
+        <div class="card-container md-trigger md-setperspective" data-modal="modal-5">
           <img src="dummyevent.png">
-          <h4 class="eventtitle">Hackathon</h4>
+          <h4 class="eventtitle">Lorem Ipsum</h4>
           <div class="card">
             <div class="side">
-              <img src="assets/images/events/HAckathon.png">
-              <h4 class="eventtitle">Hackathon</h4>
+              <img src="assets/images/events/comingsoon.png">
+            
+              <h4 class="eventtitle">Coming Soon</h4>
             </div>
-            <div class="side back" id="back-5">
+            <div class="side back" id="back-8">
             </div>
           </div>
         </div>
 
-        <div class="card-container md-trigger md-setperspective" data-modal="modal-5">
+        
+
+        <div class="card-container md-trigger md-setperspective" data-modal="modal-2">
           <img src="dummyevent.png">
-          <h4 class="eventtitle">Amateur/Semi-Pro Bands</h4>
-          <div class="card">
-            <div class="side">
-              <img src="assets/images/events/paper2.png">
-              <h4 class="eventtitle">Paper Presentation</h4>
-            </div>
-            <div class="side back" id="back-5">
-            </div>
-          </div>
-        </div>
-        <!--
-        <div class="card-container md-trigger md-setperspective" data-modal="modal-3">
-          <img src="dummyevent.png">
-          <h4 class="eventtitle">DJ Wars</h4>
+          <h4 class="eventtitle">Lorem Ipsum</h4>
           <div class="card">
             <div class="side">
               <img src="assets/images/events/comingsoon.png">
-              <h4 class="eventtitle">Coming soon</h4>
+              <h4 class="eventtitle">Coming Soon</h4>
             </div>
-            <div class="side back" id="back-3">
+            <div class="side back" id="back-9">
             </div>
           </div>
         </div>
+        
+      
+
+        
 
         <!-- <div class="card-container md-trigger md-setperspective" data-modal="modal-4">
           <img src="dummyevent.png">
@@ -1025,68 +1032,65 @@
           </div>
         </div>
 
+        <div class="card-container md-trigger md-setperspective" data-modal="modal-7">
+          <img src="dummyevent.png">
+          <h4 class="eventtitle">Somaiya's Got Talent</h4>
+          <div class="card">
+            <div class="side">
+              <img src="assets/images/events/comingsoon.png">
+              <h4 class="eventtitle">Coming soon</h4>
+            </div>
+            <div class="side back" id="back-7">
+            </div>
+          </div>
+        </div>
+
+
+
 
       </div>
 
 
 
       <div class="tab__content">
-        <div class="eventheading">Coming Soon</div>
+
+        <div class="card-container md-trigger md-setperspective" data-modal="modal-5" onclick="navigateTo('https://hack2skill.com/')">
+          <img src="dummyevent.png">
+          <div class="card">
+            <div class="side">
+              <img src="assets/images/events/HAckathon.png">
+              <h4 class="eventtitle">Hackathon</h4>
+            </div>
+            <div class="side back" id="back-5">
+            </div>
+          </div>
+
+          <script>
+            function navigateTo(url) {
+              window.open(url, '_blank');
+            }
+          </script>
         
-        <div class="card-container md-trigger md-setperspective" data-modal="modal-disabled">
+        </div>
+
+        <div class="card-container md-trigger md-setperspective" data-modal="modal-5">
           <img src="dummyevent.png">
-          <h4 class="eventtitle">Lorem Ipsum</h4>
+          <h4 class="eventtitle">Paper presentation</h4>
           <div class="card">
             <div class="side">
-              <img src="assets/images/events/comingsoon.png">
-            
-              <h4 class="eventtitle">Coming Soon</h4>
+              <img src="assets/images/events/paper2.png">
+              <h4 class="eventtitle">Paper Presentation</h4>
             </div>
-            <div class="side back" id="back-8">
+            <div class="side back" id="back-5">
             </div>
           </div>
         </div>
 
-        <div class="card-container nothover md-trigger md-setperspective" data-modal="modal-disabled">
-          <img src="dummyevent.png">
-          <h4 class="eventtitle">Lorem Ipsum</h4>
-          <div class="card">
-            <div class="side">
-              <img src="assets/images/events/comingsoon.png">
-              <h4 class="eventtitle">Coming Soon</h4>
-            </div>
-            <div class="side back" id="back-9">
-            </div>
-          </div>
-        </div>
+
+ 
         
-        <div class="card-container nothover md-trigger md-setperspective" data-modal="modal-disabled">
-          <img src="dummyevent.png">
-          <h4 class="eventtitle">Lorem Ipsum</h4>
-          <div class="card">
-            <div class="side">
-              <img src="assets/images/events/comingsoon.png">
-              <h4 class="eventtitle">Coming Soon</h4>
-            </div>
-            <div class="side back" id="back-10">
-            </div>
-          </div>
-        </div>
-
-        <div class="card-container nothover md-trigger md-setperspective" data-modal="modal-disabled">
-          <img src="dummyevent.png">
-          <h4 class="eventtitle">Lorem Ipsum</h4>
-          <div class="card">
-            <div class="side">
-              <img src="assets/images/events/comingsoon.png">
-              <h4 class="eventtitle">Coming Soon</h4>
-            </div>
-            <div class="side back" id="back-10">
-            </div>
-          </div>
-        </div>
-
-        <!-- <div class="bottom"></div> -->
+       
+         <div class="bottom"></div> 
         
       </div>
 

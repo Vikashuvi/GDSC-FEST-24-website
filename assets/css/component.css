@@ -725,3 +725,15 @@ button {
 button:hover {
 	background: #F28b82;
 }
+
+.btns {
+  display: flex; 
+  justify-content: space-between;
+  max-width: 30px; 
+  padding: 10px 150px;
+  margin-right: 50px;
+  }
+.btns a, .btns button {
+  flex: 1; 
+  margin-right: 10px;
+}
