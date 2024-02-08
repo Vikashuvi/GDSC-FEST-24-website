@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6
 {
   .eventsbg
   {
-    background-image: url("../images/bgs/others/mshield.png");
+    background-image: url("/bgcanva1920x1080.png");
   }
 }
 
@@ -283,7 +283,7 @@ label[for*='5']:before {
 }
 .card .side {
   border-radius: 6px;
-  background:#7B295C;
+  background:#f9ab00;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   position: absolute;
@@ -339,14 +339,7 @@ label[for*='5']:before {
 }
 .tab-wrap
 {
-  background: #9A3767 !important;
-}
-.tab__content
-{
-  background:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0)), to(rgba(0,0,0,0.2)));
-  background:-webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2));
-  background:-o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2));
-  background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.2));
+  background: #ffd06b !important;
 }
 
 /*=====================================================================*/
@@ -355,19 +348,19 @@ label[for*='5']:before {
 .tab__content::-webkit-scrollbar-track
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  background-color: #422446;
+  background-color: #000000;
 }
 
 .tab__content::-webkit-scrollbar
 {
   height: 10px;
   width: 10px;
-  background-color: #422446;
+  background-color: #000000;
 }
 
 .tab__content::-webkit-scrollbar-thumb
 {
-  background-color: #FB9C70;
+  background-color: #f9ab00;
   border-radius: 5px;
   /*border: 2px solid #555555;*/
 }
@@ -514,8 +507,8 @@ label[for*='5']:before {
 }
 
 .tab + label {
-  -webkit-box-shadow: 0 -1px 0 #9A3767 inset;
-          box-shadow: 0 -1px 0 #9A3767 inset;
+  -webkit-box-shadow: 0 -1px 0 #ffd06d inset;
+          box-shadow: 0 -1px 0 #ffd06d inset;
   border-radius: 6px 6px 0 0;
   cursor: pointer;
   display: block;
@@ -811,27 +804,27 @@ label[for*='5']:before {
 label
 {
   font-variant: small-caps;
-  color: #FB9C70 !important;
-  background: #7B295C !important;
+  color: #000000 !important;
+  background: #f9ab00 !important;
 }
 
 .tab:checked + label {
-  background-color: #9A3767 !important;
-  color: #fff !important;
-  -webkit-box-shadow: 0 -1px 0 #9A3767 inset;
-          box-shadow: 0 -1px 0 #9A3767 inset;
+  background-color: #ffd06b !important;
+  color: #000000 !important;
+  -webkit-box-shadow: 0 -1px 0 #ffd06d inset;
+          box-shadow: 0 -1px 0 #ffd06d inset;
   cursor: default;
 }
 
 .tab:checked + label:hover {
-  -webkit-box-shadow: 0 -1px 0 #9A3767 inset;
-          box-shadow: 0 -1px 0 #9A3767 inset;
-  background-color: #9A3767 !important;
+  -webkit-box-shadow: 0 -1px 0 #000000 inset;
+          box-shadow: 0 -1px 0 #000000 inset;
+  background-color: #000000 !important;
   color: #fff !important;
 }
 
 .tab + label:hover {
-  background-color: #9A3767 !important;
+  background-color: #000000 !important;
   color: #fff !important;
 /*  -webkit-box-shadow: 0 1px 0 #9A3767 inset;
           box-shadow: 0 1px 0 #9A3767 inset;*/

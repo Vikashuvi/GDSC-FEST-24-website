@@ -824,7 +824,7 @@ label
 
 .tab:checked + label {
   background-color: #ffd06b !important;
-  color: #fff !important;
+  color: #000000 !important;
   -webkit-box-shadow: 0 -1px 0 #ffd06d inset;
           box-shadow: 0 -1px 0 #ffd06b inset;
   cursor: default;
