@@ -38,7 +38,7 @@ h6 {
 	border-radius:10px 0px 0px 10px;
 	position: fixed;
 	top: 80px;
-	right: -155px;
+	right: -130px;
 	z-index: 100;
 	/*text-align: center;*/
 	transition: all 1s ease-in-out;
@@ -60,7 +60,7 @@ h6 {
 
 #game_link:hover
 {
-	transform: translateX(-155px);
+	transform: translateX(-130px);
 }
 
 /*a {
