@@ -166,7 +166,7 @@ label[for*='1']:before {
 }
 
 label[for*='2']:before {
-  content: '\f0d0';
+  content: '\f0eb';
 }
 
 label[for*='3']:before {
