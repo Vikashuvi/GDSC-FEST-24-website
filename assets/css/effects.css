@@ -1225,3 +1225,36 @@ body {
     color: #ea3445;
 }
 
+button {
+	border: none;
+	padding: 0.6em 1.2em;
+	background: #ea4335;
+	color: #fff;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	margin: 3px 2px;
+	padding: 10px;
+	border-radius: 2px;
+}
+
+button:hover {
+	background: #F28b82;
+}
+
+
+
+.visabtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.visabtn h3 {
+    font-size: 24px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+}   
