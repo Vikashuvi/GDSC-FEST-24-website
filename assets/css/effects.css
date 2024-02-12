@@ -63,6 +63,38 @@ h6 {
 	transform: translateX(-130px);
 }
 
+#movie_link
+{
+	width: auto;
+	background-color: #fff;
+	border-radius:10px 0px 0px 10px;
+	position: fixed;
+	bottom: 10px;
+	right: -280px;
+	z-index: 100;
+	/*text-align: center;*/
+    box-shadow: 0 4px 8px rgba(255, 225, 0, 0.847);
+	transition: all 1s ease-in-out;
+}
+
+#movie_link a
+{
+	color: #f9ab00;
+	display: initial;
+}
+
+#movie_link a:before
+{
+	font-family: 'FontAwesome';
+	content: '\f03d';
+	padding:5px;
+}
+
+#movie_link:hover
+{
+	transform: translateX(-280px);
+}
+
 /*a {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -1251,10 +1283,21 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Adjust as needed */
 }
 
 .visabtn h3 {
+    font-size: 24px; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+}   
+
+.visabtn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px; /* Adjust as needed */
+}
+
+.visabtn1 h3 {
     font-size: 24px; /* Adjust as needed */
     margin-right: 10px; /* Adjust as needed */
 }   
