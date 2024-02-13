@@ -28,17 +28,21 @@ h1,h2,h3,h4,h5,h6
 #nahi {
   font-family: Lato;
 }
-#back-6
+#back-4-ECE
 {
-  background-image: url("https://media.giphy.com/media/l0HU78eNZy6KWSvjW/giphy.gif");
+  background-image: url("/assets/gifs/ece.gif");
+}
+#back-6-IT
+{
+  background-image: url("/assets/gifs/IT.gif");
 }
 #back-7
 {
   background-image: url("/dummyevent.png");
 }
-#back-8
+#back-8-BME
 {
-  background-image: url("https://media.giphy.com/media/3o752fp1Lg1ExDkgHC/giphy.gif");
+  background-image: url("/assets/gifs/BME.gif");
 }
 #back-9
 {
