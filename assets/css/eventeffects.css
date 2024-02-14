@@ -36,22 +36,49 @@ h1,h2,h3,h4,h5,h6
 {
   background-image: url("/assets/gifs/IT.gif");
 }
-#back-7
+#back-7-CSE
 {
-  background-image: url("/dummyevent.png");
+  background-image: url("/assets/gifs/CSE.gif");
 }
 #back-8-BME
 {
   background-image: url("/assets/gifs/BME.gif");
 }
-#back-9
+#back-9-EEE
 {
-  background-image: url("https://media.giphy.com/media/l49JTQoW1pRbwtCko/giphy.gif");
+  background-image: url("/assets/gifs/EEE.gif");
 }
-#back-10
+#back-10-junk
 {
-  background-image: url("https://media.giphy.com/media/3o752mIsPqa29pFZqo/giphy.gif");
+  background-image: url("/assets/gifs/junkyard.gif");
 }
+
+#back-11-rush
+{
+  background-image: url("/assets/gifs/rush.gif");
+}
+
+#back-12-crime
+{
+  background-image: url("/assets/gifs/crime.gif");
+}
+
+#back-13-escape
+{
+  background-image: url("/assets/gifs/escape.gif");
+}
+
+#back-5-HACK
+{
+  background-image: url("/assets/gifs/HACK.gif");
+}
+
+#back-15-pp
+{
+  background-image: url("/assets/gifs/pp.gif");
+}
+
+
 .eventtitle
 {
   font-family: Lato;
