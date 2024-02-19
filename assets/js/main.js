@@ -16,13 +16,13 @@ $(document).ready(function() {
 
     // list of messages to display
     var messages = [
-        "Assembling Bolt the Robot...",
-        "Prancing the plains for Bob the Caveman...",
-        "Excavating the earth for Cleopatra's tomb...",
-        "Testing Frank's Polyjuice potion...",
-        "Hover over characters for more magic...",
-        "Hover over characters for more magic...",
-        "Voila!",
+        "Join us at GDSC Fest...",
+        "Where innovation meets celebration!...",
+        "Unleash your creativity...",
+        "connect with like-minded tech enthusiasts...",
+        "Get ready for the...",
+        "2 days extravaganza!...",
+        "Fire up...!",
     ].reverse();
 
     // initially hide the message
