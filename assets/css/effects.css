@@ -58,9 +58,8 @@ h6 {
 	padding:5px;	
 }
 
-#game_link:hover
-{
-	transform: translateX(-130px);
+#game_link.hover-effect {
+    transform: translateX(-130px);
 }
 
 #movie_link

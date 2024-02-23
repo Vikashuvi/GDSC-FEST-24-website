@@ -52,6 +52,45 @@
         <a href="https://gdsc.community.dev/events/details/developer-student-clubs-ksr-institute-for-engineering-technology-namakkal-presents-gdsc-fest-24/" target="_blank" class="icon-button">Get Your Visa</a>
     </div>
 
+    <script>
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    var hoverCount = 0;
+    var interval;
+
+    // Function to add hover-effect class manually
+    function toggleHoverEffect() {
+        var gameLink = document.getElementById("game_link");
+        gameLink.classList.toggle("hover-effect");
+    }
+
+    // Function to start hover effect manually
+    function startHoverEffect() {
+        toggleHoverEffect();
+    }
+
+    // Function to stop hover effect manually
+    function stopHoverEffect() {
+        toggleHoverEffect();
+    }
+
+    // Initially start automatic hover effect after 10 seconds
+    setTimeout(function() {
+        interval = setInterval(function() {
+            if (hoverCount < 6) {
+                toggleHoverEffect();
+                hoverCount++;
+            } else {
+                clearInterval(interval);
+                var gameLink = document.getElementById("game_link");
+                gameLink.addEventListener("mouseenter", startHoverEffect);
+                gameLink.addEventListener("mouseleave", stopHoverEffect);
+            }
+        }, 5000); // 5 seconds
+    }, 10000); // 10 seconds
+});
+    </script>
+
     <div id="movie_link">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdFiAn_x6N1Or1eLPByzzWvL-5yXvnLOsFVgKDqwra3AIJI6g/viewform?usp=sf_link" target="_blank" class="icon-button">Become a campus ambassador</a>
     </div>
