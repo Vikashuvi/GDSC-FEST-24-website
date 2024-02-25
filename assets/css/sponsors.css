@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6
 {
   height: 10px;
   width: 10px;
-  background-color: #422446;
+  background-color: #ffffff;
 }
 
 .tab__content::-webkit-scrollbar-thumb
@@ -225,7 +225,7 @@ body
       -ms-flex-positive: 3;
           flex-grow: 3;
   text-align: center;
-  background-color: #7B295C;
+  background-color: #ffffff;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;

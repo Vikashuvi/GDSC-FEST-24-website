@@ -254,3 +254,10 @@ body {
   cursor: pointer;
   color: #000000;
 }
+
+#mail-icon {
+  margin-bottom: 2px;
+  height: 28px;
+  width: 28px;
+  padding: 2px;
+}
