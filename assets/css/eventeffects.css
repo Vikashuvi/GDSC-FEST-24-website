@@ -165,6 +165,7 @@ body {
 
   }
   
+  
 }
 
 /*.eventcontainer > *:not(.tab-wrap) {
@@ -188,6 +189,9 @@ body {
   .eventheading
   {
     display: block;
+  }
+  .eventcontainer {
+    height: 0px;
   }
 }
 .tab__content
@@ -318,6 +322,7 @@ label[for*='5']:before {
   {
     width: 40%;
   }
+  
 }
 .card
 {

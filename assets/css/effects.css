@@ -859,6 +859,11 @@ a {
         background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
 
     }
+
+    #homepage_heading {
+        height: 700px;
+        width: 700px;
+    }
 }
 
 @media only screen and (max-width:500px) {
@@ -866,6 +871,12 @@ a {
         background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
 
     }
+
+    #homepage_heading {
+        height: 700px;
+        width: 700px;
+    }
+
 }
 
 ../images/bgs/mobile landscape*/ @media only screen and (min-device-width: 480px) and (max-device-width: 825px) and (orientation: landscape) {
@@ -892,6 +903,14 @@ a {
 		width: 150px;
 		height: auto;
 	} 
+    #homepage_heading {
+        height: 700px;
+        width: 700px;
+    }
+    #obj2 {
+        height: 3500px;
+    }
+
 }
 
 @media only screen and (max-height: 400px) {
@@ -901,6 +920,14 @@ a {
     .textcontent {
         display: none;
     }
+    #homepage_heading {
+        height: 700px;
+        width: 700px;
+    }
+    #obj2 {
+        height: 3500px;
+    }
+
 }
 
 @media screen and (max-aspect-ratio: 735/1000) {
@@ -916,12 +943,30 @@ a {
     #card4 {
         background-color: white;
     }
+    #homepage_heading {
+        height: 700px;
+        width: 700px;
+    }
+    #obj2 {
+        height: 3500px;
+    }
+
 }
 
 @media screen and (max-aspect-ratio: 560/1000) {
     .card {
         background-image: url(/assets/images/bgs/others/bgcanva960x600.png);
 
+    }
+    #homepage_heading {
+        height: 700px;
+        width: 700px;
+    }
+    #obj2 {
+        height: 3500px;
+    }
+    #obj5 {
+        height: 4050px;
     }
 }
 
@@ -1300,3 +1345,8 @@ button:hover {
     font-size: 24px; /* Adjust as needed */
     margin-right: 10px; /* Adjust as needed */
 }   
+
+.visabtn1 #apply {
+    margin-left: 40px;
+    margin-right: 15px;
+}
