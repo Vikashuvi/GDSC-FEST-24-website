@@ -910,7 +910,15 @@ a {
     #obj2 {
         height: 3500px;
     }
+    #obj3 {
+        height: 1750px;
+    }
 
+    #loader {
+        top: 625px;
+        width: 700px;
+        height: 700px;
+    }
 }
 
 @media only screen and (max-height: 400px) {
@@ -926,6 +934,15 @@ a {
     }
     #obj2 {
         height: 3500px;
+    }
+    #obj3 {
+        height: 1750px;
+    }
+
+    #loader {
+        top: 625px;
+        width: 700px;
+        height: 700px;
     }
 
 }
@@ -950,7 +967,15 @@ a {
     #obj2 {
         height: 3500px;
     }
+    #obj3 {
+        height: 1750px;
+    }
 
+    #loader {
+        top: 625px;
+        width: 700px;
+        height: 700px;
+    }
 }
 
 @media screen and (max-aspect-ratio: 560/1000) {
@@ -967,6 +992,14 @@ a {
     }
     #obj5 {
         height: 4050px;
+    }
+    #obj3 {
+        height: 1750px;
+    }
+    #loader {
+        top: 625px;
+        width: 700px;
+        height: 700px;
     }
 }
 

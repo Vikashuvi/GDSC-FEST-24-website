@@ -78,6 +78,26 @@ h1,h2,h3,h4,h5,h6
   background-image: url("/assets/gifs/pp.gif");
 }
 
+#back-16-olympia
+{
+  background-image: url("/assets/gifs/Olympia.gif");
+}
+
+#back-17-line
+{
+  background-image: url("/assets/gifs/LInewe.gif");
+}
+
+#back-18-genius
+{
+  background-image: url("/assets/gifs/genius.gif");
+}
+
+#back-19-workgif
+{
+  background-image: url("/assets/gifs/workgif.gif");
+}
+
 
 .eventtitle
 {
