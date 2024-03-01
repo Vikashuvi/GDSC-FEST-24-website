@@ -324,11 +324,11 @@ label[for*='5']:before {
 }
 #back-5
 {
-  background-image: url("https://media.giphy.com/media/3ohc15BdOqx6ukxZU4/giphy.gif");
+  background-image: url("/assets/gifs/trackcore.gif");
 }
 #back-6
 {
-  background-image: url("https://media.giphy.com/media/xULW8FD4YGIt5ct0as/giphy.gif");
+  background-image: url("/assets/gifs/data.gif");
 }
 #back-7
 {
@@ -338,6 +338,7 @@ label[for*='5']:before {
 {
   background-image: url("https://media.giphy.com/media/3ohc1fssvHJMEdasve/giphy.gif");
 }
+
 .tab-wrap
 {
   background: #ffd06b !important;
