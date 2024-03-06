@@ -214,8 +214,8 @@ body
 
 .tab + label {
   max-width: 100px;
-  -webkit-box-shadow: 0 -1px 0 #9A3767 inset;
-          box-shadow: 0 -1px 0 #9A3767 inset;
+  -webkit-box-shadow: 0 -1px 0 #000000 inset;
+          box-shadow: 0 -1px 0 #ffffff inset;
   border-radius: 6px 6px 0 0;
   cursor: pointer;
   display: block;
