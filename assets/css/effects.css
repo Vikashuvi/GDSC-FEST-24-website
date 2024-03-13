@@ -290,8 +290,8 @@ a {
 
 #homepage_heading {
     content: "";
-    width: 100%;
-    height: calc(100% - 50px);
+    width: 110%;
+    height: calc(100% - 40px);
     position: absolute;
     top: 42%;
     left: 50%;
